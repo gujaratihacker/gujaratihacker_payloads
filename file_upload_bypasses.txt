@@ -1,0 +1,29 @@
+name.html%0d%0a.png
+
+│ Category        │ Test Values     │ Expected        │
+├─────────────────┼─────────────────┼─────────────────┤
+│ Baseline        │ test.jpg        │ 200 OK          │
+├─────────────────┼─────────────────┼─────────────────┤
+│ Double Ext      │ test.php.jpg    │ Should reject   │
+│                 │ test.asp.png    │                 │
+├─────────────────┼─────────────────┼─────────────────┤
+│ Case Manipulate │ test.pHp        │ Should reject   │
+│                 │ test.PhP        │                 │
+├─────────────────┼─────────────────┼─────────────────┤
+│ Special Chars   │ test.php;.jpg   │ Should reject   │
+│                 │ test.php..jpg   │                 │
+├─────────────────┼─────────────────┼─────────────────┤
+│ Alternative     │ test.php5       │ Should reject   │
+│                 │ test.phtml      │                 │
+
+# Test Cases
+Overwrite Testing:
+1. Upload file1.jpg → success
+2. Upload same filename again
+3. Does server overwrite or create new?
+
+Deletion Testing:
+1. Upload file
+2. Delete via application
+3. Is file actually removed from storage?
+4. Can deleted file still be accessed?
